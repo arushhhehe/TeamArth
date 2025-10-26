@@ -1,0 +1,300 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "select": "Select",
+    "upload": "Upload",
+    "download": "Download",
+    "view": "View",
+    "phone": "Phone",
+    "email": "Email",
+    "name": "Name",
+    "description": "Description",
+    "category": "Category",
+    "price": "Price",
+    "status": "Status",
+    "date": "Date",
+    "actions": "Actions"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "products": "Products",
+    "benefits": "Benefits",
+    "support": "Support",
+    "referrals": "Referrals",
+    "admin": "Admin",
+    "logout": "Logout"
+  },
+  "landing": {
+    "title": "Welcome to Udyam Union",
+    "subtitle": "Join India's premier seller onboarding platform",
+    "description": "Get verified, access union benefits, and connect with the best marketplaces for your business.",
+    "joinNow": "Join Now",
+    "learnMore": "Learn More",
+    "benefits": {
+      "title": "Union Benefits",
+      "insurance": {
+        "title": "Insurance Coverage",
+        "description": "Comprehensive insurance protection for your business and family"
+      },
+      "training": {
+        "title": "Training Programs",
+        "description": "Skill development and business training programs"
+      },
+      "credit": {
+        "title": "Credit Access",
+        "description": "Easy access to business loans and credit facilities"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock support for all your business needs"
+      }
+    }
+  },
+  "onboarding": {
+    "title": "Join Udyam Union",
+    "step": "Step {{current}} of {{total}}",
+    "progress": "Progress",
+    "welcome": {
+      "title": "Welcome to Udyam Union",
+      "subtitle": "Let's get you started on your journey",
+      "benefits": "Union Benefits",
+      "getStarted": "Get Started"
+    },
+    "phone": {
+      "title": "Phone Verification",
+      "subtitle": "Enter your phone number to get started",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+91 98765 43210",
+      "sendOTP": "Send OTP",
+      "otpLabel": "Enter OTP",
+      "otpPlaceholder": "123456",
+      "verify": "Verify",
+      "resend": "Resend OTP",
+      "otpSent": "OTP sent to {{phone}}"
+    },
+    "profile": {
+      "title": "Profile Details",
+      "subtitle": "Tell us about yourself and your business",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "emailLabel": "Email (Optional)",
+      "emailPlaceholder": "your@email.com",
+      "regionLabel": "Region",
+      "regionPlaceholder": "Select your region",
+      "cityLabel": "City",
+      "cityPlaceholder": "Enter your city",
+      "villageLabel": "Village (Optional)",
+      "villagePlaceholder": "Enter your village",
+      "categoriesLabel": "Business Categories",
+      "categoriesPlaceholder": "Select your business categories",
+      "languageLabel": "Preferred Language",
+      "scaleLabel": "Business Scale",
+      "capacityLabel": "Production Capacity",
+      "capacityPlaceholder": "Describe your production capacity"
+    },
+    "documents": {
+      "title": "Identity Documents",
+      "subtitle": "Upload your identity documents for verification",
+      "documentTypeLabel": "Document Type",
+      "documentTypePlaceholder": "Select document type",
+      "uploadLabel": "Upload Documents",
+      "uploadDescription": "Upload clear photos or scanned copies",
+      "noDocumentsLabel": "I don't have these documents",
+      "alternateDocuments": "Alternate Documents",
+      "alternateDescription": "Upload alternative documents for verification"
+    },
+    "membership": {
+      "title": "Union Membership",
+      "subtitle": "Review and accept union membership terms",
+      "terms": "Terms & Conditions",
+      "benefits": "Union Benefits",
+      "agreeLabel": "I agree to join Udyam Union",
+      "complete": "Complete Registration"
+    },
+    "success": {
+      "title": "Welcome to Udyam Union!",
+      "subtitle": "Your registration is complete",
+      "unionId": "Your Union ID: {{id}}",
+      "nextSteps": "Next Steps",
+      "goToDashboard": "Go to Dashboard"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, {{name}}!",
+    "unionId": "Union ID: {{id}}",
+    "verificationStatus": "Verification Status",
+    "profile": {
+      "title": "Profile",
+      "editProfile": "Edit Profile",
+      "personalInfo": "Personal Information",
+      "businessInfo": "Business Information"
+    },
+    "benefits": {
+      "title": "Union Benefits",
+      "insurance": {
+        "title": "Insurance Coverage",
+        "status": "Coming Soon",
+        "description": "Comprehensive insurance protection for your business"
+      },
+      "training": {
+        "title": "Training Programs",
+        "status": "Coming Soon",
+        "description": "Skill development and business training"
+      },
+      "credit": {
+        "title": "Credit Access",
+        "status": "Coming Soon",
+        "description": "Easy access to business loans"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "status": "Active",
+        "description": "Round-the-clock support available"
+      }
+    },
+    "products": {
+      "title": "My Products",
+      "addProduct": "Add Product",
+      "noProducts": "No products added yet",
+      "addFirstProduct": "Add your first product"
+    },
+    "marketplace": {
+      "title": "Marketplace Matching",
+      "description": "You will be matched with the best marketplace once verified!",
+      "status": "Pending Verification"
+    },
+    "support": {
+      "title": "Help & Support",
+      "phone": "Support Phone: +91-XXXX-XXXXXX",
+      "whatsapp": "WhatsApp Support",
+      "reportIssue": "Report Issue",
+      "tickets": "Support Tickets"
+    },
+    "referrals": {
+      "title": "Refer a Seller",
+      "description": "Invite other sellers to join Udyam Union",
+      "referralCode": "Your Referral Code: {{code}}",
+      "shareWhatsapp": "Share via WhatsApp",
+      "shareSMS": "Share via SMS"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "login": {
+      "title": "Admin Login",
+      "username": "Username",
+      "password": "Password",
+      "login": "Login",
+      "invalidCredentials": "Invalid credentials"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "statistics": "Statistics",
+      "totalSellers": "Total Sellers",
+      "verifiedSellers": "Verified Sellers",
+      "pendingSellers": "Pending Sellers",
+      "provisionalSellers": "Provisional Sellers"
+    },
+    "sellers": {
+      "title": "Manage Sellers",
+      "search": "Search sellers...",
+      "filter": "Filter by status",
+      "status": {
+        "all": "All",
+        "verified": "Verified",
+        "provisional": "Provisional",
+        "pending": "Pending"
+      },
+      "actions": {
+        "view": "View Details",
+        "approve": "Approve",
+        "reject": "Reject",
+        "provisional": "Provisional"
+      }
+    },
+    "verification": {
+      "title": "Verification Details",
+      "status": "Status",
+      "documents": "Documents",
+      "notes": "Admin Notes",
+      "action": "Action",
+      "approve": "Approve",
+      "reject": "Reject",
+      "provisional": "Provisional",
+      "reason": "Reason for rejection"
+    }
+  },
+  "verification": {
+    "verified": "Verified",
+    "provisional": "Provisional",
+    "pending": "Pending",
+    "verifiedDescription": "Your account is verified and you have full access to all union benefits.",
+    "provisionalDescription": "Your account has provisional membership. Submit documents for full verification.",
+    "pendingDescription": "Your verification is under review. We'll notify you once it's complete.",
+    "expiredDescription": "Your provisional membership has expired. Please submit documents for verification.",
+    "submitDocuments": "Submit Documents",
+    "renewMembership": "Renew Membership"
+  },
+  "products": {
+    "title": "Products & Services",
+    "addProduct": "Add Product",
+    "editProduct": "Edit Product",
+    "productName": "Product Name",
+    "productDescription": "Product Description",
+    "category": "Category",
+    "tags": "Tags",
+    "price": "Price (₹)",
+    "maxUnits": "Maximum Units",
+    "leadTime": "Lead Time",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "outOfStock": "Out of Stock",
+    "discontinued": "Discontinued"
+  },
+  "support": {
+    "title": "Support",
+    "reportIssue": "Report Issue",
+    "issueTitle": "Issue Title",
+    "issueDescription": "Issue Description",
+    "submit": "Submit Issue",
+    "tickets": "My Tickets",
+    "noTickets": "No support tickets yet"
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "validationError": "Please check your input and try again.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "timeout": "Request timed out. Please try again."
+  },
+  "success": {
+    "profileUpdated": "Profile updated successfully!",
+    "productAdded": "Product added successfully!",
+    "productUpdated": "Product updated successfully!",
+    "productDeleted": "Product deleted successfully!",
+    "issueSubmitted": "Issue submitted successfully!",
+    "documentsUploaded": "Documents uploaded successfully!"
+  }
+}

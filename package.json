@@ -1,0 +1,29 @@
+{
+  "name": "udyam-union-platform",
+  "version": "1.0.0",
+  "description": "Udyam Union Seller Onboarding Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "deploy:frontend": "npm run build && firebase deploy --only hosting",
+    "deploy:all": "npm run build && firebase deploy",
+    "firebase:init": "firebase login && firebase init hosting",
+    "firebase:serve": "firebase serve --only hosting"
+  },
+  "keywords": ["seller", "onboarding", "union", "marketplace", "react", "nodejs", "mongodb"],
+  "author": "Udyam Union",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arushhhehe/TeamArth.git"
+  },
+  "homepage": "https://github.com/arushhhehe/TeamArth#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

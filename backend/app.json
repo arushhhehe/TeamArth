@@ -1,0 +1,47 @@
+{
+  "name": "udyam-union-backend",
+  "description": "Udyam Union Backend API",
+  "repository": "https://github.com/your-username/udyam-union-platform",
+  "logo": "https://your-logo-url.com/logo.png",
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "success_url": "/",
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment",
+      "value": "production"
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB Atlas connection string",
+      "required": true
+    },
+    "JWT_SECRET": {
+      "description": "JWT secret key (32+ characters)",
+      "required": true
+    },
+    "ADMIN_USERNAME": {
+      "description": "Admin username",
+      "value": "admin"
+    },
+    "ADMIN_PASSWORD": {
+      "description": "Admin password",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
